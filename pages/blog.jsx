@@ -10,14 +10,14 @@ const posts = [
       category: { title: 'CTO', href: '#' },
       author: {
         name: 'Manish Maharjan',
-        role: 'Co-Founder / CTO',
+        role: 'Founder / CTO',
         href: '#',
         imageUrl:
           'https://i.postimg.cc/nrd13LFs/ME.png' },
     },
     // More posts...
     {
-        id: 1,
+        id: 2,
         title: 'A Message from Our Director',
         href: '#',
         description:'As the directors of Kanxi Cleaning Services, we are committed to ensuring that our companys mission and values are upheld in every aspect of our operations.',
@@ -32,7 +32,7 @@ const posts = [
             'https://i.postimg.cc/WbBZTZHN/Screenshot-2024-07-16-105003.png' },
       },
       {
-        id: 1,
+        id: 3,
         title: 'A Word from Our Marketing Head',
         href: '#',
         description:

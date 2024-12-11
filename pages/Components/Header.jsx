@@ -19,7 +19,7 @@ const Header = () => {
         <nav aria-label="Global" className="hidden md:block">
           <ul className="flex items-center gap-6 text-sm">
             <li>
-              <a className="text-black transition hover:text-gray-500/75" href="/first"> About </a>
+              <a className="text-black transition hover:text-gray-500/75" href="/About"> About </a>
             </li>
   
             <li>
@@ -55,7 +55,7 @@ const Header = () => {
   
             <a
               className="hidden rounded-md bg-black px-5 py-2.5 text-sm font-medium text-white transition hover:text-teal-600/75 sm:block"
-              href="#"
+              href="/Register"
             >
               Register
             </a>
@@ -71,9 +71,9 @@ const Header = () => {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              stroke-width="2"
+              strokeWidth="2"
             >
-              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+              <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           </button>
         </div>
